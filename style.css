@@ -1,0 +1,7 @@
+.titulossessoes {
+    font-style: bold;
+}
+
+.titulossessoes::after {
+    content: "♥";
+}
