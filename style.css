@@ -63,7 +63,7 @@ a {
         text-shadow: rgba(0, 0, 0, 0.349) 2px 3px 2px;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 768px) {
     body {
       overflow-x: hidden;
     }
@@ -81,7 +81,7 @@ a {
       transition: transform 0.3s ease-in;
       box-shadow: 3px 3px 3px #000;
     }
-    
+
     .nav-list li {
       margin-left: 0;
       opacity: 0;
