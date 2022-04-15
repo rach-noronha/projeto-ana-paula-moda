@@ -117,3 +117,11 @@ a {
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
+  
+.titulossessoes {
+    font-style: bold;
+}
+
+.titulossessoes::after {
+    content: "♥";
+}
