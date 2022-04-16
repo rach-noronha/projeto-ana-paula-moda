@@ -1,7 +1,52 @@
+
 .titulossessoes {
     font-style: bold;
 }
 
 .titulossessoes::after {
     content: "♥";
+}
+
+
+img {
+    width: 190px;
+    height:216px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    float: left;
+    padding-right: 20px;
+}
+
+.servicohome {
+    display: flexbox;
+    background-color:#DCDCDC;
+    height: 280px;
+    padding: 0px 10px;
+    text-align: left;
+}
+
+
+.botao {
+    background-color: #D68181;
+    box-shadow: 1px 1px 1px #000;
+    padding: 10px 50px;
+    border-radius: 73px;  
+    font-weight: bold;
+    margin-right: 200px;
+    cursor: pointer;
+  }
+
+.botao:active{
+    box-shadow: none;
+}
+
+.botao:hover{
+    transform: scale(1.05);
+}
+
+.alinhamento-conteudo{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%;
 }
