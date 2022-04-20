@@ -1,7 +1,62 @@
-.titulossessoes {
+/* Configuração mais ampla
+h1 {
     font-style: bold;
+    display: flex;
+    flex-direction: row;
+}*/
+
+.titulossessoesesquerda {
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
 }
 
-.titulossessoes::after {
-    content: "♥";
+.titulossessoesesquerda::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.titulossessoesdireita {
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulossessoesdireita::before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid;
+    margin: auto;
+    margin-left;: 100px; /*?????*/
+}
+
+.titulossubpaginasdireita {
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulossubpaginasdireita::before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid;
+    margin: auto;
+    margin-left;: 20px;
+}
+
+.titulossubpaginasesquerda {
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulossubpaginasesquerda::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid;
+    margin: auto;
+    margin-right: 20px;
 }
