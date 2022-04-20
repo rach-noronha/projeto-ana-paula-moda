@@ -51,11 +51,94 @@ img {
     }
    }
 
-
-.titulossessoes {
+   
+.titulobase {
     font-style: bold;
+    display: flex;
+    gap: 10px;
 }
 
-.titulossessoes::after {
-    content: "♥";
+/*vai ter que parar no fim da caixa*/
+.titulosobremim::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid;
+    margin: auto;
+    margin-right: 20px;
 }
+
+.titulossessoesesquerda::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.titulossessoesdireita::before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.titulossubpaginasdireita::before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.titulossubpaginasesquerda::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid;
+    margin: auto;
+    margin-right: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  /* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px 0px 10px 0px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: rgba(214, 129, 129, 1);
+  }
+  
+  .whatsapp {
+    background: #2da728;
+    color: white;
+  }
+
+  .instagram {
+    background: #c32aa3;
+    color: white;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
