@@ -72,6 +72,35 @@ a {
         text-shadow: rgba(0, 0, 0, 0.349) 2px 3px 2px;
 }
 
+
+#texto {
+  background-color: #dcdcdc83;
+  height: 120px;
+  border-radius: 0 50px 0 0;
+  display:inline-flex; 
+  margin: 30px; 
+  max-width: 1100px;
+  text-align: center;
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  align-items: center;
+}
+
+#amarelo {
+  background-color: #FFF5E0;
+  height: 100px;
+  display:inline-flex; 
+  width: 100px; 
+}
+
+#vermelho {
+  background-color: #D68181;
+  height: 100px;
+  display:inline-flex;
+  width: 100px; 
+}
+
 @media (max-width: 768px) {
     body {
       overflow-x: hidden;
@@ -122,7 +151,7 @@ a {
   
   }
   
-  .nav-list.active {
+    .nav-list.active {
     transform: translateX(0);
   }
   
