@@ -30,7 +30,7 @@ body{
 }
 
 
-img {
+.imgdireita {
     width: 200px;
     height:200px;
     border-radius: 56px 0 56px 0;
@@ -152,10 +152,52 @@ img {
     background: #FF0000;
     color: white;
   }
-<<<<<<< HEAD
 
   .calendly-inline-widget {
     z-index: -1;
   }
-=======
->>>>>>> 4f2c0789360880c0bad65106ee6323078841101b
+
+
+
+.imggaleria {
+  width: 100%;
+  border-radius: 56px 56px 56px 56px;
+}
+
+.containergaleria {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.coluna {
+  flex: 33.3%;
+  padding: 15px;
+}
+
+  /*Estilo da galeria
+  .row {
+    display: flex;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .coluna {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .imggaleria {
+    width: 100%
+  }
+
+  .coluna {
+    flex: 33.33%;
+    padding: 5px;
+  }*/
