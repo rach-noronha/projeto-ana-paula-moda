@@ -72,7 +72,7 @@ a {
 
 
 #texto {
-  background-color: #dcdcdc80;
+  background-color: #dcdcdc83;
   height: 120px;
   border-radius: 0 50px 0 0;
   display:inline-flex; 
@@ -81,7 +81,8 @@ a {
   text-align: center;
   font-size: 18px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  padding: 5px;   
+  padding: 5px;
+  align-items: center;
 }
 
 #amarelo {
