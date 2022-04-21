@@ -1,43 +1,4 @@
-.contanier{
-    height: 230px;
-    background-color:#DCDCDC;
-    padding: 10px 10px;
-    text-align: left;
-    border-radius: 0 95px 0 0;
-    margin-top: 30px;
-}
-
-.alinhamento-conteudo{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 55%;
-    text-align: left;
-}
-
-.foto {
-    width: 200px;
-    height:200px;
-    border-radius: 0 56px 0 56px;
-    float: left;
-    padding-right: 40px;
-}
-
-.botao {
-    background-color: #D68181;
-    box-shadow: 1px 1px 1px #000;
-    padding: 10px 50px;
-    border-radius: 73px;  
-    font-weight: bold;
-    margin-left: 650px;
-    cursor: pointer;
-  }
-
-
-.titulossessoes {
-    font-style: bold;
-}
-
-.titulossessoes::after {
-    content: "♥";
+body{
+    background-color: #EEC7AC;
+    font-size: 20px;
 }
