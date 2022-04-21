@@ -1,3 +1,66 @@
+body{
+    background-color: #EEC7AC;
+    font-size: 20px;
+}
+*{box-sizing: border-box;}
+
+.containerbase{
+ /*   height: auto; */
+    background-color:#FFF5E0 ;
+    padding: 50px 30px;
+    border-radius: 95px 0 0 0;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.containerdireita{
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.containeresquerda{
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.alinhamento-conteudo{
+    text-align: right;
+}
+
+
+img {
+    width: 200px;
+    height:200px;
+    border-radius: 56px 0 56px 0;
+}
+
+.botaoagende {
+    background-color: #D68181;
+    box-shadow: 1px 1px 1px #000;
+    padding: 10px 50px;
+    border-radius: 73px;  
+    font-weight: bold;
+    margin-right: 400px;
+    cursor: pointer;
+  }
+
+.botao:active{
+    box-shadow: none;
+}
+
+.botao:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 855px) {
+    .contanier-a{
+       height: 300px;
+    }
+   }
+
+   
 .titulobase {
     font-style: bold;
     display: flex;
@@ -26,7 +89,6 @@
     flex: 1 1;
     border-bottom: 4px solid;
     margin: auto;
-    margin-left: 20px;
 }
 
 .titulossubpaginasdireita::before {
