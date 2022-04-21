@@ -63,6 +63,8 @@
     color: white;
     font-size: 20px;
     border-radius: 10px 0px 10px 0px;
+    opacity: 0.8;
+    z-index: 1;
   }
   
   .icon-bar a:hover {
@@ -70,12 +72,12 @@
   }
   
   .whatsapp {
-    background: #2da728;
+    background: #1AD03F;
     color: white;
   }
 
   .instagram {
-    background: #c32aa3;
+    background: #B63895;
     color: white;
   }
   
@@ -85,6 +87,10 @@
   }
   
   .youtube {
-    background: #bb0000;
+    background: #FF0000;
     color: white;
+  }
+
+  .calendly-inline-widget {
+    z-index: -1;
   }
