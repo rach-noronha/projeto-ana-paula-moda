@@ -1,10 +1,12 @@
 
 body {
-    background-color: #EEC7AC;
+    background-color: #8e705c;
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
     font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
 }
 
 *{box-sizing: border-box;}
@@ -30,7 +32,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #EEC7AC;
+    background: #d8916a;
     box-shadow: 3px 1px 3px #000;
 }
 
@@ -65,8 +67,9 @@ a {
 
 .nav-list a {    
     color: #000;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 1000;
 }
 
 .nav-list a:hover {
@@ -75,15 +78,16 @@ a {
 
 
 #texto {
-  background-color: #dcdcdc83;
+  background-color: #f6e3ad;
   height: 120px;
   border-radius: 0 50px 0 0;
   display:inline-flex; 
   margin: 30px; 
   max-width: 1100px;
   text-align: center;
-  font-size: 18px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Open Sans', sans-serif;
   padding: 5px;
   align-items: center;
 }
@@ -194,13 +198,14 @@ a {
 .containerdireita{
     text-align: right;
     justify-content: flex-end;
+    background-color: #e2cab0;
     border-radius: 95px 0 0 0;
 }
 
 .containeresquerda{
     text-align: left;
     justify-content: flex-start;
-    background-color: #DCDCDC;
+    background-color: #f6e3ad;
     border-radius: 0 95px 0 0;
 }
 
@@ -245,7 +250,7 @@ img {
 }
 
 .botaoagende {
-    background-color: #D68181;
+    background-color: #d8916a;
     box-shadow: 1px 1px 1px #000;
     padding: 10px 50px;
     border-radius: 73px;  
@@ -253,6 +258,8 @@ img {
     cursor: pointer;
     margin-right: auto;
     margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
   }
 
   
@@ -282,6 +289,7 @@ img {
     font-style: bold;
     display: flex;
     gap: 10px;
+    font-family: 'Lobster', cursive;
 }
 
 /*vai ter que parar no fim da caixa*/
@@ -342,19 +350,27 @@ img {
     color: white;
     font-size: 20px;
     border-radius: 10px 0px 10px 0px;
+    opacity: 0.8;
+    z-index: 99;
   }
   
   .icon-bar a:hover {
     background-color: rgba(214, 129, 129, 1);
   }
   
+  @media only screen and (max-width: 600px) {
+    .icon-bar {
+      display: none;
+    }
+  }
+
   .whatsapp {
-    background: #2da728;
+    background: #1AD03F;
     color: white;
   }
 
   .instagram {
-    background: #c32aa3;
+    background: #B63895;
     color: white;
   }
   
@@ -364,16 +380,44 @@ img {
   }
   
   .youtube {
-    background: #bb0000;
+    background: #FF0000;
     color: white;
   }
 
+  .tituloagenda {
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Lobster', cursive;
+  }
+
+  .calendly-inline-widget {
+    margin: 30px 100px;
+  }
+
+.imggaleria {
+  width: 100%;
+  border-radius: 56px 56px 56px 56px;
+}
+
+.containergaleria {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.coluna {
+  flex: 33.3%;
+  padding: 15px;
+}
+
   .rodape_final{
           padding: 0px;
-          margin: 0px;
+          margin-top: 30px;
           box-sizing: boder-box;
       
-          background-color: rgba(214, 129, 129, 1);
+          background-color: #d8916a;
           color: #000 ;
           display: grid;
           grid-template-columns: 90% 10%;
@@ -383,7 +427,6 @@ img {
   .rodape_final > div {
       text-align: center;
       font-weight: bold;
-
  }
  .voltar-top{
     color: #000 ;

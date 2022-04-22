@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">        
+    <link rel="stylesheet" href="style.css">    
+    <link rel="icon" href="./img/ícone girassol.png">        
     <title>Ana Paula Möda</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat&family=Caveat+Brush&family=Dancing+Script:wght@600;700&family=Handlee&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Marck+Script&family=Oooh+Baby&family=Rock+Salt&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0a4da708d7.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
+    
     <header id="header">
-        <a href="index.html" id="logo"><p>Ana Paula Möda</p></a>              
+        <a href="index.html/#logo" id="logo"><p>Ana Paula Möda</p></a>              
         <nav id="nav">
             <div class="mobile-menu">
                 <div class="line1"></div>
@@ -23,10 +30,10 @@
                 <div class="line3"></div>
             </div>                    
             <ul class="nav-list">
-                <li><a href="#">Sobre Mim</a></li>
-                <li><a href="#">Casa de Luz e Saber</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="#">Cursos</a></li>
+                <li><a href="./index.html#sobremim">Sobre Mim</a></li>
+                <li><a href="./index.html#casa">Casa de Luz e Saber</a></li>
+                <li><a href="./index.html#servico">Serviços</a></li>
+                <li><a href="./index.html#cursos">Cursos</a></li>
                 <div class="menu-icons">
                     <a href="#"><i class="fab fa-youtube"></i></a>
                     <a href="https://www.instagram.com/ascartasdaanaluz/"><i class="fa-brands fa-instagram"></i></a>
@@ -35,7 +42,7 @@
             </ul>
                         
         </nav>        
-    </header>
+    </header>   
 
     <h1 class="titulossessoesesquerda titulobase">Serviços</h1>
 
@@ -44,12 +51,14 @@
         <h2 class="titulossessoesdireita titulobase">Baralho Cigano</h2>
          <div>
             <h3>Leitura livre (até 1h00m)</h3>
-             <p>Para quem deseja orientação em até 03 temas</p>
+             <p>Para quem deseja orientação em até 03 temas.</p>
              <h3>Mesa Real (até 1h30m)</h3>
              <p>Uma leitura completa sobre todas as áreas da vida: Relações e afetividades, profissão e finanças, desenvolvimento pessoal e espiritualidade, saúde dos sete corpos sutis.</p> 
         </div> 
-         <div>
-            <button class="botaoagende">Agende</button>
+        <div>
+            <a href="./eventos.html#agenda">
+                <button class="botaoagende">Agende</button>
+            </a>
         </div>
     </div>
     <img class="imgdireita" src="img/baralhocigano.jpg" alt="Cartas variadas organizadas em círculo num fundo verde">
@@ -62,9 +71,11 @@
         <h2 class="titulossubpaginasesquerda titulobase">Metafísica e Magia Natural</h1>
         <div class="alinhamento-conteudoesquerda">
             <p>A manipulação das energias é uma habilidade intrínseca em cada um de nós, tudo pode ser transformado ou harmonizado, não existe empecilho para quem possui poder pessoal. Se você sente que está preso em questões que não consegue harmonia, procure uma sessão de metafísica e magia natural. Sempre pelo bem, para o bem e em prol da evolução humana.</p>
-        <div>
-            <button class="botaoagende">Agende</button>
-        </div>
+            <div>
+                <a href="./eventos.html#agenda">
+                    <button class="botaoagende">Agende</button>
+                </a>
+            </div>
         </div>
       </div>
     </div>
@@ -77,7 +88,9 @@
          </p>
         </div>
         <div>
-            <button class="botaoagende">Agende</button>
+            <a href="./eventos.html#agenda">
+                <button class="botaoagende">Agende</button>
+            </a>
         </div>
      </div>
         <img class ="imgdireita" src="img/terapia.jpg"alt="Uma vela ao lado de uma mandala">
@@ -90,26 +103,33 @@
         <h2 class="titulossubpaginasesquerda titulobase">Mentorias para profissionais</h1>
         <div class="alinhamento-conteudoesquerda">
             <p>Se você é ou quer se tornar um terapeuta ou tarólogo e sente dificuldade em algum sentido, faça uma mentoria personalizada.</p>
-        <div>
-            <button class="botaoagende">Agende</button>
-        </div>
+            <div>
+                <a href="./eventos.html#agenda">
+                    <button class="botaoagende">Agende</button>
+                </a>
+            </div>
         </div>
       </div>
     </div>
 
+        <!-- Widget em linha do Calendly - início -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/rach-noronha?background_color=fff5e0&primary_color=d68181" style="min-width:320px;height:630px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Widget em linha do Calendly - fim -->
 
-    <div class="containerbase containerdireita">
-       <div>
-        <h2 class="titulossessoesdireita titulobase">Cursos</h2>
-         <div>
-          <p class="alinhamento-conteudo">Formação completa em Baralho Cigano, Reiki Usui, Tibetano e MaheO’o. Workshops e Vivências de Expansão da Consciência. Confira os próximos Eventos.</p>
-         </div>
-         <div>
-            <button class="botaoagende botao">Agende</button>
-         </div>
-        </div>
-    <img class = "imgdireita" src="img/curso.png"alt="Mulher com vestido azul palestrando">
+    <div>
+
+        <footer class="rodape_final"> 
+           <div>
+              <p>Ana Paula Moda ® 2022</p> 
+                  <p>Todos os direitos reservados - User Interface by Squad Sarah Gilbert - WoMakersCode</p>
+            </div>
+              
+                  <a class="voltar-top" href="#sobre-mim">Voltar ao topo <i class="fa fa-angle-up"></i></a>  
+                
+        </footer>
     </div>
+
     <script src="estilo.js"></script>
 </body>
 </html>
