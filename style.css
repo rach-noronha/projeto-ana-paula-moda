@@ -150,3 +150,29 @@ img {
     background: #bb0000;
     color: white;
   }
+
+  .rodape_final{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: boder-box;
+      
+          background-color: rgba(214, 129, 129, 1);
+          color: #000 ;
+          display: grid;
+          grid-template-columns: 90% 10%;
+          align-items: center;
+          gap: 10px;
+  }
+  .rodape_final > div {
+      text-align: center;
+      font-weight: bold;
+  
+  .rodape_final{
+      bottom;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+  }
+
+ }
