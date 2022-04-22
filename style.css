@@ -350,6 +350,12 @@ img {
     background-color: rgba(214, 129, 129, 1);
   }
   
+  @media only screen and (max-width: 600px) {
+    .icon-bar {
+      display: none;
+    }
+  }
+
   .whatsapp {
     background: #1AD03F;
     color: white;
@@ -393,7 +399,7 @@ img {
 
   .rodape_final{
           padding: 0px;
-          margin: 0px;
+          margin-top: 30px;
           box-sizing: boder-box;
       
           background-color: rgba(214, 129, 129, 1);
@@ -406,7 +412,6 @@ img {
   .rodape_final > div {
       text-align: center;
       font-weight: bold;
-
  }
  .voltar-top{
     color: #000 ;
