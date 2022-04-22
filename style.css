@@ -7,6 +7,7 @@ body {
     font-size: 20px;
 }
 
+*{box-sizing: border-box;}
 
 #logo  {    
     font-family: 'Alex Brush', cursive;
@@ -184,7 +185,6 @@ a {
  /*   height: auto; */
     background-color:#FFF5E0 ;
     padding: 50px 30px;
-    border-radius: 95px 0 0 0;
     margin-top: 30px;
     display: flex;
     align-items: center;
@@ -194,17 +194,34 @@ a {
 .containerdireita{
     text-align: right;
     justify-content: flex-end;
+    border-radius: 95px 0 0 0;
 }
 
 .containeresquerda{
     text-align: left;
     justify-content: flex-start;
+    background-color: #DCDCDC;
+    border-radius: 0 95px 0 0;
 }
 
 .alinhamento-conteudo{
     text-align: right;
 }
 
+.alinhamento-conteudoesquerda{
+    text-align: left;
+}
+
+.imgdireita {
+    width: 300px;
+    height:300px;
+}
+
+.imgesquerda {
+    width: 300px;
+    height:300px;
+    border-radius: 0 56px 0 56px;
+}
 
 img {
     width: 190px;
@@ -221,23 +238,25 @@ img {
     text-align: left;
 }
 
-
 .botao {
     width: 200px;
     height:200px;
     border-radius: 56px 0 56px 0;
 }
 
+
 .botaoagende {
     background-color: #D68181;
     box-shadow: 1px 1px 1px #000;
     padding: 10px 50px;
     border-radius: 73px;  
-    font-weight: bold;
-    margin-right: 400px;
+    font-weight: bold;  
     cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
   }
 
+  
 .botao:active{
     box-shadow: none;
 }
