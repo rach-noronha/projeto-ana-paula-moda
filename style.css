@@ -292,7 +292,6 @@ img {
     font-family: 'Lobster', cursive;
 }
 
-/*vai ter que parar no fim da caixa*/
 .titulosobremim::after {
     content: "";
     flex: 1 1;
